@@ -18,4 +18,4 @@ app.use(notFoundErrorHandler);
 app.use(zodErrorHandler);
 app.use(defaultErrorHandler);
 
-app.listen(8080, () => console.info("NG-Resource Back has started!"));
+app.listen(3000, () => console.info("NG-Resource Back has started!"));

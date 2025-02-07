@@ -3,6 +3,6 @@ import { getImage } from "../controllers/image";
 
 const router = Router();
 
-router.get("/", getImage);
+router.post("/", getImage);
 
 export const imageRouter = router;
